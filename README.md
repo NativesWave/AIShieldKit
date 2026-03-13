@@ -30,17 +30,17 @@ It helps teams enforce prompt hygiene, estimate usage/cost, validate JSON struct
 2. Paste this exact URL:
 
 ```text
-https://github.com/Ahsan-Pitafi/AIShieldKit.git
+https://github.com/NativesWave/AIShieldKit.git
 ```
 
-3. Choose `Up to Next Major Version` starting from `1.0.0`
+3. Choose `Up to Next Major Version` starting from `1.0.3`
 4. Add product `AIShieldKit` to your target
 
 #### Package.swift
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Ahsan-Pitafi/AIShieldKit.git", from: "1.0.0")
+    .package(url: "https://github.com/NativesWave/AIShieldKit.git", from: "1.0.3")
 ]
 ```
 
@@ -193,6 +193,14 @@ AIShieldKit is intentionally honest and does not claim perfect AI safety.
 - Safety filtering is basic keyword matching in the free core
 
 Use provider-native safety controls and app-specific policies alongside AIShieldKit.
+
+## Pro Edition
+
+`AIShieldKitPro` is available as a paid private package for teams that need stricter policy controls, advanced firewalling, and premium workflow features.
+
+- Pro package repository: `https://github.com/NativesWave/AIShieldKitPro.git` (private access required)
+- Purchase/support contact: `ahsan.iqbal.pitafi@gmail.com`
+- Include your GitHub username when purchasing so access can be granted
 
 ## License
 
